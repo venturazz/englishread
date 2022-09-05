@@ -1,4 +1,4 @@
-const url = "/dummy.pdf";
+const url = "dummy.pdf";
 
 (async function () {
 
