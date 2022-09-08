@@ -68,7 +68,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
 .form-container {
   max-width: 310px;
   padding: 25px;
-  background:#f1f1;
+  background:#0000;
   border: 5px;
 }
 
@@ -106,6 +106,9 @@ body {font-family: Arial, Helvetica, sans-serif;}
 /* Add some hover effects to buttons */
 .form-container .btn:hover, .open-button:hover {
   opacity: 1;
+}
+.invalid-feedback {
+	background-color: red;
 }
 
 .btn{border:1 none; height:30px; padding:0; width:30px; background-color:transparent; display:inline-block; margin:7px 5px 0; vertical-align:top; cursor:pointer; color:#fff;}
