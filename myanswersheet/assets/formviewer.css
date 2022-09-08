@@ -22,8 +22,8 @@
 }
 
 #overlay {
-    width: 100%;
-    height: 100%;
+    width: 50%;
+    height: 50%;
     position: absolute;
     z-index: 10;
     visibility: hidden;
@@ -73,16 +73,16 @@ body {font-family: Arial, Helvetica, sans-serif;}
 
 /* Full-width input fields */
 .form-container input[type=text], .form-container input[type=password] {
-  width: 120%;
+  width: 90%;
   padding: 0px;
-  margin: 5px 0 5px 0;
+  margin: 5px 5px 5px 5px;
   border: none;
-  background: #f1f1f1;
+  background: #f1f1;
 }
 
 /* When the inputs get focus, do something */
 .form-container input[type=text]:focus, .form-container input[type=password]:focus {
-  background-color: #ddd;
+  background-color: #dddd;
   outline: none;
 }
 
@@ -90,13 +90,12 @@ body {font-family: Arial, Helvetica, sans-serif;}
 .form-container .btn {
   background-color: #04AA6D;
   color: white;
-  padding: 1px 20px;
   border: none;
   cursor: pointer;
-  width: 120%;
-  margin-bottom:5px;
+  width: 90%;
   opacity: 0.8;
 }
+
 
 /* Add a red background color to the cancel button */
 .form-container .cancel {
@@ -108,7 +107,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
   opacity: 1;
 }
 
-.btn{border:0 none; height:30px; padding:0; width:30px; background-color:transparent; display:inline-block; margin:7px 5px 0; vertical-align:top; cursor:pointer; color:#fff;}
+.btn{border:1 none; height:30px; padding:0; width:30px; background-color:transparent; display:inline-block; margin:7px 5px 0; vertical-align:top; cursor:pointer; color:#fff;}
 .btn:hover{background-color:#0e1319; color:#eddbd9; border-radius:5px;}
 .page{box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);}
 #formviewer{bottom:0; left:0; right:0; position:absolute; top:40px; background:#191f2f none repeat scroll 0 0;}
